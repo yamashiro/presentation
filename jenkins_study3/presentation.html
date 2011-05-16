@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta content="application/xhtml+xml; charset=UTF-8" http-equiv="content-type" />
+<meta content="text/css" http-equiv="content-style-type" />
+
+<meta content="text/javascript" http-equiv="content-script-type" />
+<title>
+</title>
+<script type="text/javascript" src="script/soundmanager2.js"></script>
+<script type="text/javascript" src="sh_main.js"></script>
+<script type="text/javascript" src="sh_javascript.js"></script>
+<link type="text/css" rel="stylesheet" href="sh_style.css"></link>
+
+<!--[if IE]>
+<script type="text/javascript" src="excanvas.pack.js"> </script>
+
+<![endif]-->
+<style type="css/text">
+</style>
+<script type="text/javascript" src="s6.js"> </script>
+<script type="text/javascript" src="s6setup.js"> </script>
+<script type="text/javascript">
+soundManager.url = "soundmanager2.swf";
+soundManager.debugMode = false;
+
+soundManager.onload = function() {
+var mySound = soundManager.createSound({
+    id: 'aSound',
+    url: 'yamete.mp3',
+    volume: 100
+  });
+}
+</script>
+</head>
+<body onload="sh_highlightDocument();">
+<div id="main">
+	<div>
+		<h1>テストは俺にまかせろ</h1>
+		<p>ysy0217@gmail.com</p>
+	</div>
+
+   
+
+<div>
+		<h2>アジェンダ</h2>
+		<pre>
+ - 自己紹介
+ - JavaScriptのテストの特徴
+ - 各種テストツール紹介
+ - デモ
+ - GWT の可能性
+ - まとめ
+</pre>
+		<script>//<![CDATA[
+s6.page({"separator":"fade"})
+//]]>
+</script>
+	</div>
+
+<div>
+		<h2>自己紹介</h2>
+		<pre>
+ - 山城裕
+ - 0x1D歳
+ - 破滅企業ドワンゴ所属
+ - <a href="http://hatenarmaps.com/view/Yamashiro0217">id:Yamashiro0217</a>
+ - <a href="http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1429235484">java-ja</a> 所属
+ - <a href="http://wiki.fdiary.net/197Xs/">197X</a> 所属
+ - <a href="http://www.wicket-ja.org/">wicket-ja</a> 所属
+ - 第１言語はjava、第２日本語、第３js、第4ruby
+ - 最近の興味はチーム開発手法, テスト, scala
+</pre>
+		<script>//<![CDATA[
+s6.page({"separator":"fade"})
+//]]>
+</script>
+</div>
+
+
+  <div>
+     <p>今日一番言いたいこと</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+  <div>
+     <p>JavaScriptの<br />テストは任せろ</p>
+     <p>ﾊﾞﾘﾊﾞﾘ</p>
+     <p>やめて!</p> 
+
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+    backgroundImage: 'baribari.gif',
+        styleBase: 'custom',
+        styles: {
+          "p[0]": {fontSize: "80%", left:"50%", top:"20%","display":"none", color: 'red'},
+          "p[1]": {fontSize: "80%",left:"5%", top:"36%", "display":"none", color: 'red'},
+          "p[2]": {fontSize: "80%", left:"55%", top:"50%", "display":"none", color: 'red'},
+       },
+ "actions":[
+    [
+      ["p[0]", "fade in", 0.4],
+
+],
+    [
+      ["p[1]", "fade in", 0.4]
+    ],
+    [
+      ["p[1]", "sound", ""],
+      ["p[2]", "fade in", 0.4]
+ 
+    ]
+  ]
+        });
+  </script>
+  </div>
+
+   <div>
+     <p>JavaScriptのテストは<br />書いてはいけない</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+   <div>
+     <p>JavaScriptのテストの特徴</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+      
+   <div>
+     <p><br /><br />非同期通信</p>
+     <p>GUI</p>
+     <p>DOM操作</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'center',
+        styles: {
+          "p[1]": {"display":"none"},
+          "p[2]": {"display":"none"}
+       },
+ "actions":[
+    [
+      ["p[1]", "fade in", 0.4]
+    ],
+    [
+      ["p[2]", "fade in", 0.4]
+    ]
+  ]
+        });
+  </script>
+  </div>
+
+   <div>
+     <p><br /><br />様々な環境</p>
+     <p>OS</p>
+     <p>ブラウザ</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'center',
+        styles: {
+          "p[1]": {"display":"none"},
+          "p[2]": {"display":"none"}
+       },
+ "actions":[
+    [
+      ["p[1]", "fade in", 0.4]
+    ],
+    [
+      ["p[2]", "fade in", 0.4]
+    ]
+  ]
+        });
+  </script>
+  </div>
+
+   <div>
+     <p><br /><br />ブラウザが必要だったり</p>
+     <p>CIなどとの連携</p>
+     <p>困難</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'center',
+        styles: {
+          "p[1]": {"display":"none"},
+          "p[2]": {"display":"none"}
+       },
+ "actions":[
+    [
+      ["p[1]", "fade in", 0.4]
+    ],
+    [
+      ["p[2]", "fade in", 0.4]
+    ]
+  ]
+        });
+  </script>
+  </div>
+
+  <div>
+    <p>
+    捕捉CIとは：継続的インテグレーション(Contunius Integration:CI)というソフトウェア開発手法は、チームのメンバーどうしが お互いの開発内容を頻繁に結合させるというものだ、通常は、 最低でも一日に一度、あるいは場合によっては一日に何度もこれを行う。 結合の際には自動ビルド (テストを含む) を行い、 エラーはできるだけ早い段階で検出する。 多くのチームが、この手法によって結合時の問題を激減させている。 また、ソフトウェアをより高速に開発できるようにもなっている。
+    </p>
+    <p>
+      by ファウラーたん
+    </p>
+      <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'default',
+	 styles: {
+          "p[0]": {"fontSize": "50%"},
+	"p[1]": {"fontSize": "50%"}
+	}
+        });
+  </script>
+  </div>
+
+  <div>
+     <p>これらの問題をどうするか</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+  <div>
+     <p>なるべくJSのテストしない</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+  <div>
+     <p>JSはシンプルに</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+  <div>
+     <p>サーバーサイドで頑張る</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+  <div>
+     <p>サーバーサイドでテスト</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+  <div>
+     <p>極力サーバーサイドで<br />テストした上で</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+  <div>
+     <p>JSのテストを書く</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+  <div>
+     <p>JSも非同期の部分や</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+   <div>
+     <p>DOM操作部分を外出しにし</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+   <div>
+     <p>テストしやすい設計にする</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+   <div>
+     <p>たとえばこのソースを</p>
+    <pre class="sh_javascript">
+  data = {
+     url: "http://example.com",
+     percent: 3.5,
+     count: 2
+  };
+  
+  data.amount = percent * count;
+  //なんらかの他の処理
+  
+  $.ajax(
+     type: "GET", url: "post_data", data: data,
+     success: function() {
+        //処理
+     });
+    </pre>
+      <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'default',
+	 styles: {
+          "p[0]": {"fontSize": "100%"},
+	"pre[0]": {"fontSize": "30%", backgroundColor: '#A9d3A6'}
+	}
+        });
+  </script>
+  </div>
+
+   <div>
+     <p>こうする</p>
+    <pre class="sh_javascript">
+  function calcData() {
+    data = {
+      url: "http://example.com",
+      percent: 3.5,
+      count: 2
+    };
+    data.amount = percent * count;
+    //なんらかの他の処理
+  }
+  function postData() {
+    $.ajax(
+       type: "GET", url: "post_data", data: data,
+       success: function() {
+          //処理
+       });
+  }
+  calcData();
+  postData();
+    </pre>
+      <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'default',
+	 styles: {
+          "p[0]": {"fontSize": "100%"},
+	"pre[0]": {"fontSize": "25%", backgroundColor: '#A9d3A6'}
+	}
+        });
+  </script>
+  </div>
+
+
+   <div>
+     <p>HTMLも</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+   <div>
+     <p>idやclassを適切にふって</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+   <div>
+     <p>テストしやすいようにする</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+<div>
+  <h2>JSテストツールの分類</h2>
+<pre>
+ - ブラウザ内でJS起動して動かすもの
+    QUnit, YUI Test、JSUnit、etc
+ - JSエンジン内蔵してるもの
+    HTMLUnit, RhinoUnit, ect
+ - ブラウザを起動して叩くもの
+   Selenium, Waitr, JSTAPd, Windmill, etc
+</pre>
+<script>
+s6.page({"separator":"fade"})
+</script>
+</div>
+
+<div><h2>QUnit</h2><pre> - jQueryから派生してできたが、今はjQuery非依存
+ - シンプル(コード1000行程度)
+ - start, stop を使うことで
+   非同期通信のテストを行うことも可能
+</pre>
+		<script>
+s6.page({"separator":"fade"})
+</script>
+</div>
+
+
+<div>
+  <p><a href="../sample/qunit.sample.html">デモ</a></p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+<div>
+  <h2>YUI Test</h2>
+<pre>
+ - YUI(Yahoo!UI)依存
+ - xUnit系のsetUp, tearDown,TestRunner,
+   TestSuite などのおなじみの構成
+ - Mockの仕組みもライブラリ中に存在
+ - UserAction という click などの
+   操作を再現させる仕組みがある 
+</pre>
+<script>//<![CDATA[
+s6.page({"separator":"fade"})
+//]]>
+</script>
+</div>
+
+<div>
+  <p><a href="../sample/yui.sample.html">デモ</a></p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+<div>
+  <h2>HtmlUnit</h2>
+<pre>
+ - Rihino 搭載していて、JSを実行させている
+ - JUnit系
+ - RubyのWrapperもある
+ - ActiveX のテストもできるらしい
+</pre>
+<script>//<![CDATA[
+s6.page({"separator":"fade"})
+//]]>
+</script>
+</div>
+
+
+<div>
+  <p>デモ</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+<div>
+  <h2>Selenium</h2>
+<pre>
+ - Selenium IDEというFireFoxのアドオンがある
+ - Java、Ruby、Python,C#,PHP,Perl でテストがかける
+ - Selenium Grid というテストを
+   スケールさせる仕組みもある
+</pre>
+<script>//<![CDATA[
+s6.page({"separator":"fade"})
+//]]>
+</script>
+</div>
+
+<div>
+     <p>デモ</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+   
+   <div>
+     <p>の前に</p><script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+  <div>
+     <p></p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'default'
+        });
+  </script>
+  </div>
+
+  <div>
+     <p>作った経緯</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+  <div>
+<img src="kawango.gif" />
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'default',
+        styles: {
+          "img[0]": {"top": "20%"}
+       },
+        });
+  </script>
+  </div>
+
+   <div>
+<img src="sangokushi.png" />
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'default',
+        styles: {
+          "img[0]": {"top": "20%"}
+       },
+        });
+  </script>
+  </div>
+<div>
+     <p>業務命令ならしょうがない</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+
+        });
+  </script>
+  </div>
+<div>
+     <p>張り付いて操作するのも嫌</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+<div>
+     <p>自動化だ！</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+<div>
+     <p>それSeleniumで(それセレ)</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+
+<div>
+  <h2>Seleniumの注意点</h2>
+<pre>
+ - Selenium IDE で満足しないで RC も使う
+ - やりすぎてテストが負債化しないように
+ - id や name、class が無いと死ぬ
+ - テストに時間がかかるので(特にIEとか)、
+   マシンを複数台用意する
+ - ブラウザ固有のバグが出たらSelenium書く
+</pre>
+<script>//<![CDATA[
+s6.page({"separator":"fade", styleBase: 'default' })
+//]]>
+</script>
+</div>
+
+<div>
+  <h2>ブラウザ開く系の特徴</h2>
+<pre>
+ - 手軽に起動できてそこそこ早い
+ - 開発中に起動させやすい
+ - 複数ブラウザの確認は
+   手動で全部開く必要がある
+ - 自動で定期的な実行が難しい
+   (Selenium と組み合わせたり自分で起動プログラム書く)
+ - プロダクトコードとテストコードの
+   分離を考える必要がある
+ - デベロッパーテスト向け
+</pre>
+<script>//<![CDATA[
+s6.page({"separator":"fade", styleBase: 'default' })
+//]]>
+</script>
+</div>
+
+<div><h2>ブラウザ内蔵系の特徴</h2>
+<pre>
+ - ブラウザ起動するより相対的に早い
+ - 自動テストとも親和性が高い
+ - クロスブラウザのテストはできない
+ - 画面が実際にどうなっているか確認できない
+ - デベロッパーテスト～結合テスト向け
+</pre>
+<script>
+s6.page({"separator":"fade", styleBase: 'default' })
+</script>
+</div>
+
+<div>
+  <h2>ブラウザ起動系の特徴</h2>
+<pre>
+ - ブラウザ起動するのでとにかく遅い
+ - 遅いので開発中は使いずらい
+ - 実際のブラウザを起動するので
+   ブラウザ間の違いがテストできる
+ - 実際にブラウザを開くので画面キャプチャなどができる
+ - 結合テスト向け
+</pre>
+<script>
+s6.page({"separator":"fade", styleBase: 'default' })
+</script>
+</div>
+
+<div>
+     <p>GWT</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+<div>
+  <h2>GWTとは</h2>
+<pre>
+ - Google製のJSフレームワーク
+ - Richコンポーネントを「Java」で記述し、
+   コンパイラにかけることによってJSを生成させる
+ - GWTTestCase という、JUnit のラッパーがあって、
+   Ajax 通信をトリガーしてテストなどは一応できる
+</pre>
+<script>
+s6.page({"separator":"fade", styleBase: 'default' })
+</script>
+</div>
+
+<div>
+     <p>GWTの可能性とは</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+
+<div>
+     <p>GWTコンパイラが信用できて</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+<div>
+     <p>GWTTestCaseが高機能になり</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+
+<div>
+     <p>GWTコンパイラが<br />テスト用コードを吐いたら</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+
+<div>
+     <p>Java側だけで<br />GUIのテストが可能に</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+<div>
+     <p>なるかも。なるといいな。</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+<div>
+     <p>以上妄想でした</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+
+<div>
+  <h2>まとめ</h2>
+<pre>
+ - JSはなるべくシンプルにして
+   サーバーサイドでテストする
+ - テストをやりやすいようにJSやHTMLを作る
+ - 適材適所でJSのテストツールを使いわける
+ - Seleniumなどのテストが遅くなったら複数マシン用意する
+ - GWT のテスト容易性の向上に期待
+ - ブラウザ三国志をやってドワンゴ同盟に入りましょう
+</pre>
+<script>
+s6.page({"separator":"fade", styleBase: 'default'})
+</script>
+</div>
+
+
+<div>
+     <p>ご清聴ありがとうございました</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+
+
+</div>
+</body>
+</html>

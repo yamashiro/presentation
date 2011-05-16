@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta content="application/xhtml+xml; charset=UTF-8" http-equiv="content-type" />
+<meta content="text/css" http-equiv="content-style-type" />
+
+<meta content="text/javascript" http-equiv="content-script-type" />
+<title>
+</title>
+<script type="text/javascript" src="script/soundmanager2.js"></script>
+<script type="text/javascript" src="sh_main.js"></script>
+<script type="text/javascript" src="sh_javascript.js"></script>
+<link type="text/css" rel="stylesheet" href="sh_style.css"></link>
+
+<!--[if IE]>
+<script type="text/javascript" src="excanvas.pack.js"> </script>
+
+<![endif]-->
+<style type="css/text">
+</style>
+<script type="text/javascript" src="s6.js"> </script>
+<script type="text/javascript" src="s6setup.js"> </script>
+<script type="text/javascript">
+soundManager.url = "soundmanager2.swf";
+soundManager.debugMode = false;
+
+soundManager.onload = function() {
+var mySound = soundManager.createSound({
+    id: 'aSound',
+    url: 'yamete.mp3',
+    volume: 100
+  });
+}
+</script>
+</head>
+<body onload="sh_highlightDocument();">
+<div id="main">
+	<div>
+		<h1>’¥Æ’¥¹’¥È’¤Ï’²¶’¤Ë’¤Þ’¤«’¤»’¤í</h1>
+		<p>ysy0217@gmail.com</p>
+	</div>
+
+   
+
+<div>
+		<h2>’¥¢’¥¸’¥§’¥ó’¥À</h2>
+		<pre>
+ - ’¼«’¸Ê’¾Ò’²ð
+ - JavaScript’¤Î’¥Æ’¥¹’¥È’¤Î’ÆÃ’Ä§
+ - ’³Æ’¼ï’¥Æ’¥¹’¥È’¥Ä’¡¼’¥ë’¾Ò’²ð
+ - ’¥Ç’¥â
+ - GWT ’¤Î’²Ä’Ç½’À­
+ - ’¤Þ’¤È’¤á
+</pre>
+		<script>//<![CDATA[
+s6.page({"separator":"fade"})
+//]]>
+</script>
+	</div>
+
+<div>
+		<h2>’¼«’¸Ê’¾Ò’²ð</h2>
+		<pre>
+ - ’»³’¾ë’Íµ
+ - 0x1D’ºÐ
+ - ’ÇË’ÌÇ’´ë’¶È’¥É’¥ï’¥ó’¥´’½ê’Â°
+ - <a href="http://hatenarmaps.com/view/Yamashiro0217">id:Yamashiro0217</a>
+ - <a href="http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1429235484">java-ja</a> ’½ê’Â°
+ - <a href="http://wiki.fdiary.net/197Xs/">197X</a> ’½ê’Â°
+ - <a href="http://www.wicket-ja.org/">wicket-ja</a> ’½ê’Â°
+ - ’Âè’£±’¸À’¸ì’¤Ïjava’¡¢’Âè’£²’Æü’ËÜ’¸ì’¡¢’Âè’£³js’¡¢’Âè4ruby
+ - ’ºÇ’¶á’¤Î’¶½’Ì£’¤Ï’¥Á’¡¼’¥à’³«’È¯’¼ê’Ë¡, ’¥Æ’¥¹’¥È, scala
+</pre>
+		<script>//<![CDATA[
+s6.page({"separator":"fade"})
+//]]>
+</script>
+</div>
+
+
+  <div>
+     <p>’º£’Æü’°ì’ÈÖ’¸À’¤¤’¤¿’¤¤’¤³’¤È</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+  <div>
+     <p>JavaScript’¤Î<br />’¥Æ’¥¹’¥È’¤Ï’Ç¤’¤»’¤í</p>
+     <p>‰Ê‰Þ‰Ø‰Ê‰Þ‰Ø</p>
+     <p>’¤ä’¤á’¤Æ!</p> 
+
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+    backgroundImage: 'baribari.gif',
+        styleBase: 'custom',
+        styles: {
+          "p[0]": {fontSize: "80%", left:"50%", top:"20%","display":"none", color: 'red'},
+          "p[1]": {fontSize: "80%",left:"5%", top:"36%", "display":"none", color: 'red'},
+          "p[2]": {fontSize: "80%", left:"55%", top:"50%", "display":"none", color: 'red'},
+       },
+ "actions":[
+    [
+      ["p[0]", "fade in", 0.4],
+
+],
+    [
+      ["p[1]", "fade in", 0.4]
+    ],
+    [
+      ["p[1]", "sound", ""],
+      ["p[2]", "fade in", 0.4]
+ 
+    ]
+  ]
+        });
+  </script>
+  </div>
+
+   <div>
+     <p>JavaScript’¤Î’¥Æ’¥¹’¥È’¤Ï<br />’½ñ’¤¤’¤Æ’¤Ï’¤¤’¤±’¤Ê’¤¤</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+   <div>
+     <p>JavaScript’¤Î’¥Æ’¥¹’¥È’¤Î’ÆÃ’Ä§</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+      
+   <div>
+     <p><br /><br />’Èó’Æ±’´ü’ÄÌ’¿®</p>
+     <p>GUI</p>
+     <p>DOM’Áà’ºî</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'center',
+        styles: {
+          "p[1]": {"display":"none"},
+          "p[2]": {"display":"none"}
+       },
+ "actions":[
+    [
+      ["p[1]", "fade in", 0.4]
+    ],
+    [
+      ["p[2]", "fade in", 0.4]
+    ]
+  ]
+        });
+  </script>
+  </div>
+
+   <div>
+     <p><br /><br />’ÍÍ’¡¹’¤Ê’´Ä’¶­</p>
+     <p>OS</p>
+     <p>’¥Ö’¥é’¥¦’¥¶</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'center',
+        styles: {
+          "p[1]": {"display":"none"},
+          "p[2]": {"display":"none"}
+       },
+ "actions":[
+    [
+      ["p[1]", "fade in", 0.4]
+    ],
+    [
+      ["p[2]", "fade in", 0.4]
+    ]
+  ]
+        });
+  </script>
+  </div>
+
+   <div>
+     <p><br /><br />’¥Ö’¥é’¥¦’¥¶’¤¬’É¬’Í×’¤À’¤Ã’¤¿’¤ê</p>
+     <p>CI’¤Ê’¤É’¤È’¤Î’Ï¢’·È</p>
+     <p>’º¤’Æñ</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'center',
+        styles: {
+          "p[1]": {"display":"none"},
+          "p[2]": {"display":"none"}
+       },
+ "actions":[
+    [
+      ["p[1]", "fade in", 0.4]
+    ],
+    [
+      ["p[2]", "fade in", 0.4]
+    ]
+  ]
+        });
+  </script>
+  </div>
+
+  <div>
+    <p>
+    ’Êá’ÂªCI’¤È’¤Ï’¡§’·Ñ’Â³’Åª’¥¤’¥ó’¥Æ’¥°’¥ì’¡¼’¥·’¥ç’¥ó(Contunius Integration:CI)’¤È’¤¤’¤¦’¥½’¥Õ’¥È’¥¦’¥§’¥¢’³«’È¯’¼ê’Ë¡’¤Ï’¡¢’¥Á’¡¼’¥à’¤Î’¥á’¥ó’¥Ð’¡¼’¤É’¤¦’¤·’¤¬ ’¤ª’¸ß’¤¤’¤Î’³«’È¯’Æâ’ÍÆ’¤ò’ÉÑ’ÈË’¤Ë’·ë’¹ç’¤µ’¤»’¤ë’¤È’¤¤’¤¦’¤â’¤Î’¤À’¡¢’ÄÌ’¾ï’¤Ï’¡¢ ’ºÇ’Äã’¤Ç’¤â’°ì’Æü’¤Ë’°ì’ÅÙ’¡¢’¤¢’¤ë’¤¤’¤Ï’¾ì’¹ç’¤Ë’¤è’¤Ã’¤Æ’¤Ï’°ì’Æü’¤Ë’²¿’ÅÙ’¤â’¤³’¤ì’¤ò’¹Ô’¤¦’¡£ ’·ë’¹ç’¤Î’ºÝ’¤Ë’¤Ï’¼«’Æ°’¥Ó’¥ë’¥É (’¥Æ’¥¹’¥È’¤ò’´Þ’¤à) ’¤ò’¹Ô’¤¤’¡¢ ’¥¨’¥é’¡¼’¤Ï’¤Ç’¤­’¤ë’¤À’¤±’Áá’¤¤’ÃÊ’³¬’¤Ç’¸¡’½Ð’¤¹’¤ë’¡£ ’Â¿’¤¯’¤Î’¥Á’¡¼’¥à’¤¬’¡¢’¤³’¤Î’¼ê’Ë¡’¤Ë’¤è’¤Ã’¤Æ’·ë’¹ç’»þ’¤Î’Ìä’Âê’¤ò’·ã’¸º’¤µ’¤»’¤Æ’¤¤’¤ë’¡£ ’¤Þ’¤¿’¡¢’¥½’¥Õ’¥È’¥¦’¥§’¥¢’¤ò’¤è’¤ê’¹â’Â®’¤Ë’³«’È¯’¤Ç’¤­’¤ë’¤è’¤¦’¤Ë’¤â’¤Ê’¤Ã’¤Æ’¤¤’¤ë’¡£
+    </p>
+    <p>
+      by ’¥Õ’¥¡’¥¦’¥é’¡¼’¤¿’¤ó
+    </p>
+      <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'default',
+	 styles: {
+          "p[0]": {"fontSize": "50%"},
+	"p[1]": {"fontSize": "50%"}
+	}
+        });
+  </script>
+  </div>
+
+  <div>
+     <p>’¤³’¤ì’¤é’¤Î’Ìä’Âê’¤ò’¤É’¤¦’¤¹’¤ë’¤«</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+  <div>
+     <p>’¤Ê’¤ë’¤Ù’¤¯JS’¤Î’¥Æ’¥¹’¥È’¤·’¤Ê’¤¤</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+  <div>
+     <p>JS’¤Ï’¥·’¥ó’¥×’¥ë’¤Ë</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+  <div>
+     <p>’¥µ’¡¼’¥Ð’¡¼’¥µ’¥¤’¥É’¤Ç’´è’Ä¥’¤ë</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+  <div>
+     <p>’¥µ’¡¼’¥Ð’¡¼’¥µ’¥¤’¥É’¤Ç’¥Æ’¥¹’¥È</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+  <div>
+     <p>’¶Ë’ÎÏ’¥µ’¡¼’¥Ð’¡¼’¥µ’¥¤’¥É’¤Ç<br />’¥Æ’¥¹’¥È’¤·’¤¿’¾å’¤Ç</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+  <div>
+     <p>JS’¤Î’¥Æ’¥¹’¥È’¤ò’½ñ’¤¯</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+  <div>
+     <p>JS’¤â’Èó’Æ±’´ü’¤Î’Éô’Ê¬’¤ä</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+   <div>
+     <p>DOM’Áà’ºî’Éô’Ê¬’¤ò’³°’½Ð’¤·’¤Ë’¤·</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+   <div>
+     <p>’¥Æ’¥¹’¥È’¤·’¤ä’¤¹’¤¤’Àß’·×’¤Ë’¤¹’¤ë</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+   <div>
+     <p>’¤¿’¤È’¤¨’¤Ð’¤³’¤Î’¥½’¡¼’¥¹’¤ò</p>
+    <pre class="sh_javascript">
+  data = {
+     url: "http://example.com",
+     percent: 3.5,
+     count: 2
+  };
+  
+  data.amount = percent * count;
+  //’¤Ê’¤ó’¤é’¤«’¤Î’Â¾’¤Î’½è’Íý
+  
+  $.ajax(
+     type: "GET", url: "post_data", data: data,
+     success: function() {
+        //’½è’Íý
+     });
+    </pre>
+      <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'default',
+	 styles: {
+          "p[0]": {"fontSize": "100%"},
+	"pre[0]": {"fontSize": "30%", backgroundColor: '#A9d3A6'}
+	}
+        });
+  </script>
+  </div>
+
+   <div>
+     <p>’¤³’¤¦’¤¹’¤ë</p>
+    <pre class="sh_javascript">
+  function calcData() {
+    data = {
+      url: "http://example.com",
+      percent: 3.5,
+      count: 2
+    };
+    data.amount = percent * count;
+    //’¤Ê’¤ó’¤é’¤«’¤Î’Â¾’¤Î’½è’Íý
+  }
+  function postData() {
+    $.ajax(
+       type: "GET", url: "post_data", data: data,
+       success: function() {
+          //’½è’Íý
+       });
+  }
+  calcData();
+  postData();
+    </pre>
+      <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'default',
+	 styles: {
+          "p[0]": {"fontSize": "100%"},
+	"pre[0]": {"fontSize": "25%", backgroundColor: '#A9d3A6'}
+	}
+        });
+  </script>
+  </div>
+
+
+   <div>
+     <p>HTML’¤â</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+   <div>
+     <p>id’¤äclass’¤ò’Å¬’ÀÚ’¤Ë’¤Õ’¤Ã’¤Æ</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+   <div>
+     <p>’¥Æ’¥¹’¥È’¤·’¤ä’¤¹’¤¤’¤è’¤¦’¤Ë’¤¹’¤ë</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+<div>
+  <h2>JS’¥Æ’¥¹’¥È’¥Ä’¡¼’¥ë’¤Î’Ê¬’Îà</h2>
+<pre>
+ - ’¥Ö’¥é’¥¦’¥¶’Æâ’¤ÇJS’µ¯’Æ°’¤·’¤Æ’Æ°’¤«’¤¹’¤â’¤Î
+    QUnit, YUI Test’¡¢JSUnit’¡¢etc
+ - JS’¥¨’¥ó’¥¸’¥ó’Æâ’Â¢’¤·’¤Æ’¤ë’¤â’¤Î
+    HTMLUnit, RhinoUnit, ect
+ - ’¥Ö’¥é’¥¦’¥¶’¤ò’µ¯’Æ°’¤·’¤Æ’Ã¡’¤¯’¤â’¤Î
+   Selenium, Waitr, JSTAPd, Windmill, etc
+</pre>
+<script>
+s6.page({"separator":"fade"})
+</script>
+</div>
+
+<div><h2>QUnit</h2><pre> - jQuery’¤«’¤é’ÇÉ’À¸’¤·’¤Æ’¤Ç’¤­’¤¿’¤¬’¡¢’º£’¤ÏjQuery’Èó’°Í’Â¸
+ - ’¥·’¥ó’¥×’¥ë(’¥³’¡¼’¥É1000’¹Ô’Äø’ÅÙ)
+ - start, stop ’¤ò’»È’¤¦’¤³’¤È’¤Ç
+   ’Èó’Æ±’´ü’ÄÌ’¿®’¤Î’¥Æ’¥¹’¥È’¤ò’¹Ô’¤¦’¤³’¤È’¤â’²Ä’Ç½
+</pre>
+		<script>
+s6.page({"separator":"fade"})
+</script>
+</div>
+
+
+<div>
+  <p><a href="../sample/qunit.sample.html">’¥Ç’¥â</a></p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+<div>
+  <h2>YUI Test</h2>
+<pre>
+ - YUI(Yahoo!UI)’°Í’Â¸
+ - xUnit’·Ï’¤ÎsetUp, tearDown,TestRunner,
+   TestSuite ’¤Ê’¤É’¤Î’¤ª’¤Ê’¤¸’¤ß’¤Î’¹½’À®
+ - Mock’¤Î’»Å’ÁÈ’¤ß’¤â’¥é’¥¤’¥Ö’¥é’¥ê’Ãæ’¤Ë’Â¸’ºß
+ - UserAction ’¤È’¤¤’¤¦ click ’¤Ê’¤É’¤Î
+   ’Áà’ºî’¤ò’ºÆ’¸½’¤µ’¤»’¤ë’»Å’ÁÈ’¤ß’¤¬’¤¢’¤ë 
+</pre>
+<script>//<![CDATA[
+s6.page({"separator":"fade"})
+//]]>
+</script>
+</div>
+
+<div>
+  <p><a href="../sample/yui.sample.html">’¥Ç’¥â</a></p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+<div>
+  <h2>HtmlUnit</h2>
+<pre>
+ - Rihino ’Åë’ºÜ’¤·’¤Æ’¤¤’¤Æ’¡¢JS’¤ò’¼Â’¹Ô’¤µ’¤»’¤Æ’¤¤’¤ë
+ - JUnit’·Ï
+ - Ruby’¤ÎWrapper’¤â’¤¢’¤ë
+ - ActiveX ’¤Î’¥Æ’¥¹’¥È’¤â’¤Ç’¤­’¤ë’¤é’¤·’¤¤
+</pre>
+<script>//<![CDATA[
+s6.page({"separator":"fade"})
+//]]>
+</script>
+</div>
+
+
+<div>
+  <p>’¥Ç’¥â</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+<div>
+  <h2>Selenium</h2>
+<pre>
+ - Selenium IDE’¤È’¤¤’¤¦FireFox’¤Î’¥¢’¥É’¥ª’¥ó’¤¬’¤¢’¤ë
+ - Java’¡¢Ruby’¡¢Python,C#,PHP,Perl ’¤Ç’¥Æ’¥¹’¥È’¤¬’¤«’¤±’¤ë
+ - Selenium Grid ’¤È’¤¤’¤¦’¥Æ’¥¹’¥È’¤ò
+   ’¥¹’¥±’¡¼’¥ë’¤µ’¤»’¤ë’»Å’ÁÈ’¤ß’¤â’¤¢’¤ë
+</pre>
+<script>//<![CDATA[
+s6.page({"separator":"fade"})
+//]]>
+</script>
+</div>
+
+<div>
+     <p>’¥Ç’¥â</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+   
+   <div>
+     <p>’¤Î’Á°’¤Ë</p><script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+  <div>
+     <p></p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'default'
+        });
+  </script>
+  </div>
+
+  <div>
+     <p>’ºî’¤Ã’¤¿’·Ð’°Þ</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+  <div>
+<img src="kawango.gif" />
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'default',
+        styles: {
+          "img[0]": {"top": "20%"}
+       },
+        });
+  </script>
+  </div>
+
+   <div>
+<img src="sangokushi.png" />
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'default',
+        styles: {
+          "img[0]": {"top": "20%"}
+       },
+        });
+  </script>
+  </div>
+<div>
+     <p>’¶È’Ì³’Ì¿’Îá’¤Ê’¤é’¤·’¤ç’¤¦’¤¬’¤Ê’¤¤</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+
+        });
+  </script>
+  </div>
+<div>
+     <p>’Ä¥’¤ê’ÉÕ’¤¤’¤Æ’Áà’ºî’¤¹’¤ë’¤Î’¤â’·ù</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+<div>
+     <p>’¼«’Æ°’²½’¤À’¡ª</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+<div>
+     <p>’¤½’¤ìSelenium’¤Ç(’¤½’¤ì’¥»’¥ì)</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+
+<div>
+  <h2>Selenium’¤Î’Ãí’°Õ’ÅÀ</h2>
+<pre>
+ - Selenium IDE ’¤Ç’Ëþ’Â­’¤·’¤Ê’¤¤’¤Ç RC ’¤â’»È’¤¦
+ - ’¤ä’¤ê’¤¹’¤®’¤Æ’¥Æ’¥¹’¥È’¤¬’Éé’ºÄ’²½’¤·’¤Ê’¤¤’¤è’¤¦’¤Ë
+ - id ’¤ä name’¡¢class ’¤¬’Ìµ’¤¤’¤È’»à’¤Ì
+ - ’¥Æ’¥¹’¥È’¤Ë’»þ’´Ö’¤¬’¤«’¤«’¤ë’¤Î’¤Ç(’ÆÃ’¤ËIE’¤È’¤«)’¡¢
+   ’¥Þ’¥·’¥ó’¤ò’Ê£’¿ô’Âæ’ÍÑ’°Õ’¤¹’¤ë
+ - ’¥Ö’¥é’¥¦’¥¶’¸Ç’Í­’¤Î’¥Ð’¥°’¤¬’½Ð’¤¿’¤éSelenium’½ñ’¤¯
+</pre>
+<script>//<![CDATA[
+s6.page({"separator":"fade", styleBase: 'default' })
+//]]>
+</script>
+</div>
+
+<div>
+  <h2>’¥Ö’¥é’¥¦’¥¶’³«’¤¯’·Ï’¤Î’ÆÃ’Ä§</h2>
+<pre>
+ - ’¼ê’·Ú’¤Ë’µ¯’Æ°’¤Ç’¤­’¤Æ’¤½’¤³’¤½’¤³’Áá’¤¤
+ - ’³«’È¯’Ãæ’¤Ë’µ¯’Æ°’¤µ’¤»’¤ä’¤¹’¤¤
+ - ’Ê£’¿ô’¥Ö’¥é’¥¦’¥¶’¤Î’³Î’Ç§’¤Ï
+   ’¼ê’Æ°’¤Ç’Á´’Éô’³«’¤¯’É¬’Í×’¤¬’¤¢’¤ë
+ - ’¼«’Æ°’¤Ç’Äê’´ü’Åª’¤Ê’¼Â’¹Ô’¤¬’Æñ’¤·’¤¤
+   (Selenium ’¤È’ÁÈ’¤ß’¹ç’¤ï’¤»’¤¿’¤ê’¼«’Ê¬’¤Ç’µ¯’Æ°’¥×’¥í’¥°’¥é’¥à’½ñ’¤¯)
+ - ’¥×’¥í’¥À’¥¯’¥È’¥³’¡¼’¥É’¤È’¥Æ’¥¹’¥È’¥³’¡¼’¥É’¤Î
+   ’Ê¬’Î¥’¤ò’¹Í’¤¨’¤ë’É¬’Í×’¤¬’¤¢’¤ë
+ - ’¥Ç’¥Ù’¥í’¥Ã’¥Ñ’¡¼’¥Æ’¥¹’¥È’¸þ’¤±
+</pre>
+<script>//<![CDATA[
+s6.page({"separator":"fade", styleBase: 'default' })
+//]]>
+</script>
+</div>
+
+<div><h2>’¥Ö’¥é’¥¦’¥¶’Æâ’Â¢’·Ï’¤Î’ÆÃ’Ä§</h2>
+<pre>
+ - ’¥Ö’¥é’¥¦’¥¶’µ¯’Æ°’¤¹’¤ë’¤è’¤ê’Áê’ÂÐ’Åª’¤Ë’Áá’¤¤
+ - ’¼«’Æ°’¥Æ’¥¹’¥È’¤È’¤â’¿Æ’ÏÂ’À­’¤¬’¹â’¤¤
+ - ’¥¯’¥í’¥¹’¥Ö’¥é’¥¦’¥¶’¤Î’¥Æ’¥¹’¥È’¤Ï’¤Ç’¤­’¤Ê’¤¤
+ - ’²è’ÌÌ’¤¬’¼Â’ºÝ’¤Ë’¤É’¤¦’¤Ê’¤Ã’¤Æ’¤¤’¤ë’¤«’³Î’Ç§’¤Ç’¤­’¤Ê’¤¤
+ - ’¥Ç’¥Ù’¥í’¥Ã’¥Ñ’¡¼’¥Æ’¥¹’¥È”¢·’·ë’¹ç’¥Æ’¥¹’¥È’¸þ’¤±
+</pre>
+<script>
+s6.page({"separator":"fade", styleBase: 'default' })
+</script>
+</div>
+
+<div>
+  <h2>’¥Ö’¥é’¥¦’¥¶’µ¯’Æ°’·Ï’¤Î’ÆÃ’Ä§</h2>
+<pre>
+ - ’¥Ö’¥é’¥¦’¥¶’µ¯’Æ°’¤¹’¤ë’¤Î’¤Ç’¤È’¤Ë’¤«’¤¯’ÃÙ’¤¤
+ - ’ÃÙ’¤¤’¤Î’¤Ç’³«’È¯’Ãæ’¤Ï’»È’¤¤’¤º’¤é’¤¤
+ - ’¼Â’ºÝ’¤Î’¥Ö’¥é’¥¦’¥¶’¤ò’µ¯’Æ°’¤¹’¤ë’¤Î’¤Ç
+   ’¥Ö’¥é’¥¦’¥¶’´Ö’¤Î’°ã’¤¤’¤¬’¥Æ’¥¹’¥È’¤Ç’¤­’¤ë
+ - ’¼Â’ºÝ’¤Ë’¥Ö’¥é’¥¦’¥¶’¤ò’³«’¤¯’¤Î’¤Ç’²è’ÌÌ’¥­’¥ã’¥×’¥Á’¥ã’¤Ê’¤É’¤¬’¤Ç’¤­’¤ë
+ - ’·ë’¹ç’¥Æ’¥¹’¥È’¸þ’¤±
+</pre>
+<script>
+s6.page({"separator":"fade", styleBase: 'default' })
+</script>
+</div>
+
+<div>
+     <p>GWT</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+<div>
+  <h2>GWT’¤È’¤Ï</h2>
+<pre>
+ - Google’À½’¤ÎJS’¥Õ’¥ì’¡¼’¥à’¥ï’¡¼’¥¯
+ - Rich’¥³’¥ó’¥Ý’¡¼’¥Í’¥ó’¥È’¤ò’¡ÖJava’¡×’¤Ç’µ­’½Ò’¤·’¡¢
+   ’¥³’¥ó’¥Ñ’¥¤’¥é’¤Ë’¤«’¤±’¤ë’¤³’¤È’¤Ë’¤è’¤Ã’¤ÆJS’¤ò’À¸’À®’¤µ’¤»’¤ë
+ - GWTTestCase ’¤È’¤¤’¤¦’¡¢JUnit ’¤Î’¥é’¥Ã’¥Ñ’¡¼’¤¬’¤¢’¤Ã’¤Æ’¡¢
+   Ajax ’ÄÌ’¿®’¤ò’¥È’¥ê’¥¬’¡¼’¤·’¤Æ’¥Æ’¥¹’¥È’¤Ê’¤É’¤Ï’°ì’±þ’¤Ç’¤­’¤ë
+</pre>
+<script>
+s6.page({"separator":"fade", styleBase: 'default' })
+</script>
+</div>
+
+<div>
+     <p>GWT’¤Î’²Ä’Ç½’À­’¤È’¤Ï</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+
+<div>
+     <p>GWT’¥³’¥ó’¥Ñ’¥¤’¥é’¤¬’¿®’ÍÑ’¤Ç’¤­’¤Æ</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+<div>
+     <p>GWTTestCase’¤¬’¹â’µ¡’Ç½’¤Ë’¤Ê’¤ê</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+
+<div>
+     <p>GWT’¥³’¥ó’¥Ñ’¥¤’¥é’¤¬<br />’¥Æ’¥¹’¥È’ÍÑ’¥³’¡¼’¥É’¤ò’ÅÇ’¤¤’¤¿’¤é</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+
+<div>
+     <p>Java’Â¦’¤À’¤±’¤Ç<br />GUI’¤Î’¥Æ’¥¹’¥È’¤¬’²Ä’Ç½’¤Ë</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+<div>
+     <p>’¤Ê’¤ë’¤«’¤â’¡£’¤Ê’¤ë’¤È’¤¤’¤¤’¤Ê’¡£</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+<div>
+     <p>’°Ê’¾å’ÌÑ’ÁÛ’¤Ç’¤·’¤¿</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+
+<div>
+  <h2>’¤Þ’¤È’¤á</h2>
+<pre>
+ - JS’¤Ï’¤Ê’¤ë’¤Ù’¤¯’¥·’¥ó’¥×’¥ë’¤Ë’¤·’¤Æ
+   ’¥µ’¡¼’¥Ð’¡¼’¥µ’¥¤’¥É’¤Ç’¥Æ’¥¹’¥È’¤¹’¤ë
+ - ’¥Æ’¥¹’¥È’¤ò’¤ä’¤ê’¤ä’¤¹’¤¤’¤è’¤¦’¤ËJS’¤äHTML’¤ò’ºî’¤ë
+ - ’Å¬’ºà’Å¬’½ê’¤ÇJS’¤Î’¥Æ’¥¹’¥È’¥Ä’¡¼’¥ë’¤ò’»È’¤¤’¤ï’¤±’¤ë
+ - Selenium’¤Ê’¤É’¤Î’¥Æ’¥¹’¥È’¤¬’ÃÙ’¤¯’¤Ê’¤Ã’¤¿’¤é’Ê£’¿ô’¥Þ’¥·’¥ó’ÍÑ’°Õ’¤¹’¤ë
+ - GWT ’¤Î’¥Æ’¥¹’¥È’ÍÆ’°×’À­’¤Î’¸þ’¾å’¤Ë’´ü’ÂÔ
+ - ’¥Ö’¥é’¥¦’¥¶’»°’¹ñ’»Ö’¤ò’¤ä’¤Ã’¤Æ’¥É’¥ï’¥ó’¥´’Æ±’ÌÁ’¤Ë’Æþ’¤ê’¤Þ’¤·’¤ç’¤¦
+</pre>
+<script>
+s6.page({"separator":"fade", styleBase: 'default'})
+</script>
+</div>
+
+
+<div>
+     <p>’¤´’À¶’Ä°’¤¢’¤ê’¤¬’¤È’¤¦’¤´’¤¶’¤¤’¤Þ’¤·’¤¿</p>
+  <script type="text/javascript">
+    s6.page({
+        effect: 'fade',
+        styleBase: 'takahashi'
+        });
+  </script>
+  </div>
+
+
+
+</div>
+</body>
+</html>
